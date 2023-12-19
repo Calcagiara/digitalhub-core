@@ -23,7 +23,7 @@ jobs:
       env:
         GH_TOKEN: ${{ github.token }}
       with:
-        title: ${{ github.ref_name }
+        title: ${{ github.ref_name }}
   build-and-push-image:
     runs-on: ubuntu-latest
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
